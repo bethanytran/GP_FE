@@ -1,20 +1,39 @@
-div.timetable-main h1.entry-title { 
-    font-size: 37px; 
-    line-height: 1.3; 
-    color: #2A3C95; 
-    font-weight: 700; 
-    font-family:'Roboto Slab', serif; 
-    text-align: left; 
-    padding-bottom: 20px; 
+footer {
+    background-image: url(image/background_img.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:100%;
+}
+.white-logo{
+    margin-top:55px;
+    margin-bottom: 22px;
 }
 
-.timetable .box img { 
-    width: 260px; 
-    margin-bottom: 0; 
-    border-radius: 15px 15px 0px 0px; 
+.infor{
+    margin-left:180px;
+    margin-bottom: 100px;
+}
+.detail{
+    color: #DBE0FC;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.text-detail{
+    color: #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.divider{
+    color:#FFF;
+    height:1px;
+}
+.icon-footer{
+    color:#9DA9EC;
+    margin-right: 9px;
 }
 
-img.alignleft { 
-    display: inline; 
-    margin: 0 15px 10px 0; 
-}
